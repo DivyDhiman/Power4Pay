@@ -1,0 +1,83 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_18"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07" />
+
+        <ImageView
+            android:layout_width="@dimen/margin_120"
+            android:layout_height="0dp"
+            android:layout_weight="0.22"
+            android:background="@drawable/app_logo"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08" />
+
+        <EditText
+            android:id="@+id/login_emailid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:drawableLeft="@drawable/username_icon"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="@string/enteremail"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white" />
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:drawableLeft="@drawable/lock_icon"
+            android:drawablePadding="@dimen/margin_10"
+            android:hint="@string/enterpassword"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <Button
+            android:id="@+id/login_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:background="@drawable/login_register_selector"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_18" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.32" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

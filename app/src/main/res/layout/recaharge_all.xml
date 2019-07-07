@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinate_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/custom_action_bar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:alpha="0.8"
+                android:layout_margin="@dimen/margin_18">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_margin="@dimen/margin_25">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.05"></View>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_120"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.2"
+                    android:id="@+id/img_logo"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.03"></View>
+
+                <Spinner
+                    android:id="@+id/spinneroperator"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.19"
+                    android:spinnerMode="dialog"
+                    android:prompt="@string/spinnerlable"
+                    android:layout_margin="@dimen/margin_5"
+                    android:theme="@style/customSpinnerTheme"/>
+
+                <Spinner
+                    android:id="@+id/spinnertype"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.14"
+                    android:spinnerMode="dialog"
+                    android:prompt="@string/spinnertype"
+                    android:layout_margin="@dimen/margin_5"
+                    android:theme="@style/customSpinnerTheme"/>
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.13"
+                    android:backgroundTint="@color/white"
+                    android:id="@+id/et_customer_number"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:gravity="center" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.13"
+                    android:backgroundTint="@color/white"
+                    android:id="@+id/et_amount"
+                    android:hint="@string/amountall"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:inputType="number" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.13"
+                    android:backgroundTint="@color/white"
+                    android:id="@+id/et_extra"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:inputType="number" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.04"></View>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1"
+                    android:background="@drawable/login_register_selector"
+                    android:id="@+id/btn_recharge"
+                    android:text="@string/recharge"
+                    android:textSize="@dimen/margin_18"
+                    android:textAllCaps="false"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.05"></View>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,108 @@
+<resources>
+
+    <string name="app_name" translatable="false">Batwa</string>
+
+    <string name="login">Login</string>
+    <string name="title1">DTH Recharge</string>
+    <string name="title2">PrePaid and PostPaid Recharge</string>
+    <string name="title3">DataCard Recahrge Recharge</string>
+    <string name="title4">Electricity, Gas Recharge</string>
+    <string name="title5">Insurance</string>
+    <string name="description1">Recharge your DTH with Batwa</string>
+    <string name="description2">Easy Recharge your PrePaid and PostPaid</string>
+    <string name="description3">Now support DataCard Recharge</string>
+    <string name="description4">You can also Pay your Electricity, Gas</string>
+    <string name="description5">Easy Insurance with all new facility</string>
+
+    <string name="messagenointernet">Please Enable your Internet Connection</string>
+     <string name="emailenter">Please Enter your User id</string>
+    <string name="passwordenter">Please Enter your password</string>
+    <string name="enteremail">User id</string>
+    <string name="enterpassword">Password</string>
+
+    <string name="dthrecharge">DTH Reacharge</string>
+    <string name="datacardrecharge">DataCard Reacharge</string>
+    <string name="postpaidrecharge">PostPaid Reacharge</string>
+    <string name="prepaidrecharge">PrePaid Reacharge</string>
+    <string name="insurance">Insurance</string>
+    <string name="electricity">Electricity</string>
+    <string name="gas">Gas</string>
+    <string name="landline">Landline</string>
+    <string name="connection">Connection</string>
+
+    <string name="prepaid_type">MOBILE</string>
+    <string name="dth_type">DTH</string>
+    <string name="datacard_type">DATACARD</string>
+    <string name="postpaid_type">POSTPAID</string>
+    <string name="electricity_type">ELECTRICITY</string>
+    <string name="gas_type">GAS</string>
+    <string name="insurance_type">INSURANCE</string>
+    <string name="landline_type">LANDLINE</string>
+    <string name="connection_type">CONNECTION</string>
+
+    <string name="recharge">Recharge</string>
+    <string name="enteramount">Please enter amount</string>
+    <string name="report">Reports</string>
+    <string name="balance">Balance</string>
+    <string name="changepassword">Change Password</string>
+    <string name="amount">Amount :- </string>
+    <string name="uid">UID :- </string>
+    <string name="customerno">Customer Number :- </string>
+    <string name="operator">Operator :- </string>
+    <string name="transtatus">Transaction Status :- </string>
+    <string name="msgintime">Message In Time : </string>
+    <string name="outmsg">Out Message : </string>
+    <string name="opening">Opening :- </string>
+    <string name="closing">Closing :- </string>
+    <string name="commission">Commission :- </string>
+    <string name="mode">Mode :- </string>
+    <string name="internerfailed">Oops something went wrong with your internet connection</string>
+    <string name="oopswrongfailed">Oops something went wrong Please try again later</string>
+    <string name="Pleasewait">Please wait</string>
+    <string name="rid">RID :- </string>
+    <string name="name">Name :- </string>
+    <string name="address">Address : </string>
+    <string name="state">State :- </string>
+    <string name="mobilenumber">Mobile Number :- </string>
+    <string name="postid">Post ID :- </string>
+    <string name="sponserid">Sponser ID :- </string>
+    <string name="sponserpost">Sponser Post :- </string>
+    <string name="loginid">Login ID :- </string>
+    <string name="date">Date : </string>
+    <string name="balancevariable">Balance Variable :- </string>
+    <string name="balanceflat">Balance Flat :- </string>
+    <string name="status">Status :- </string>
+    <string name="pin">Pin :- </string>
+    <string name="firstname">First Name : </string>
+    <string name="email">Email : </string>
+    <string name="lastupdate">Last Update : </string>
+    <string name="spcode">SP Code :- </string>
+    <string name="spname">SP Name : </string>
+    <string name="mpin">M Pin :- </string>
+    <string name="mstatus">M Status :- </string>
+    <string name="change">Change</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="enteroldpassword">Please enter old password</string>
+    <string name="enternewpassword">Please enter new password</string>
+    <string name="logout">LogOut</string>
+    <string name="spinnerlable">Select Operator</string>
+    <string name="spinnertype">Select Type</string>
+    <string name="flat">FLAT</string>
+    <string name="variable">VARIABLE</string>
+    <string name="SubscriberNumber">Subscriber Number</string>
+    <string name="PolicyApplicationNumber">Policy Application Number</string>
+    <string name="ConsumerNumber">Consumer Number</string>
+    <string name="CycleNumber">Cycle Number</string>
+    <string name="DOB">DOB</string>
+    <string name="DataCardNumber">DataCard Number</string>
+    <string name="Number">Number</string>
+    <string name="MobileNumber">Mobile Number</string>
+    <string name="entervalue">Please enter value</string>
+    <string name="amountall">Amount</string>
+    <string name="reporttxt">Report : </string>
+
+
+    <string name="cancel">Cancel</string>
+
+</resources>
